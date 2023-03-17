@@ -1,0 +1,5 @@
+'''
+Program symulujący "automat parzysty - nieparzysty", który pobiera od użytkownika liczbę i wykonuje dwie operacje:
+1. Wyświetla informację, czy liczba jest parzysta, czy nieparzysta..
+2. Wyświetla podaną liczbę oraz 9 kolejnych liczb parzystych lub nieparzystych.
+'''
