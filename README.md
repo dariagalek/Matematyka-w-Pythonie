@@ -1,1 +1,0 @@
-# Matematyka-w-Pythonie
