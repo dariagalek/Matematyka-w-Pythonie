@@ -1,0 +1,7 @@
+'''
+Utwórz tabliczkę mnożenia. Użytkownik wpisuje liczbę, dla której zostanie wygenerowana tabliczka mnożenia oraz ile wielokrotności trzeba w tej tabliczce uwzględnić.
+'''
+a=int(input('Wpisz liczbę: '))
+n=int(input('Podaj liczbę wielokrotności: '))
+for i in range (1,n+1):
+        print ('{} x {} = {}'.format(a,i,a*i))
