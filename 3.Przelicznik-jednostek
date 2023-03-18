@@ -1,0 +1,43 @@
+'''
+Utwórz program pozwalający przeliczyć jednostki:
+- kilometry na mile i odwrotnie,
+- kilogramy na funty i odwrotnie,
+- stopnie Celcjusza na Fahrenheita.
+'''
+def km_miles():
+    km=float(input('Wpisz odległość wyrażoną w kilometrach: '))
+    miles=km/1.609
+    print('Odległość wyrażona w milach: {}'.format(miles))
+def miles_km():
+    miles=float(input('Wpisz odległość wyrażoną w milach: '))
+    km=miles*1.609
+    print('Odległość wyrażona w kilometrach: {}'.format(km))    
+def kg_pound():
+    kg=float(input('Wpisz masę wyrażoną w kilogramach: '))
+    pound=kg*2.205
+    print('Masa wyrażona w funtach: {}'.format(pound))
+def pound_kg():
+    pound=float(input('Wpisz masę wyrażoną w funtach: '))
+    kg=pound/2.205
+    print('Masa wyrażona w kilogramach: {}'.format(kg))
+def c_f():
+    c=float(input('Wpisz temperaturę wyrażoną w stopniach Celcjusza: '))
+    f=1.8*c+32
+    print('Temperatura wyrażona w stopniach Fahrenheita: {}'.format(f))
+def f_c():
+    f=float(input('Wpisz temperaturę wyrażoną w stopniach Fahrenheita: '))
+    c=(f-32)*(5/9)
+    print('Temperatura wyrażona w stopniach Celcjusza: {}'.format(c))    
+choice=input('Wybierz rodzaj konwersji, którą chcesz wykonać:\n1. Kilometry na mile\n2. Mile na kilometry\n3. Kilogramy na funty\n4. Funty na kilogramy\n5. Stopnie Celcjusza na Fahrenheita\n6. Stopnie Fahrenheita na Celcjusza\n')
+if choice=='1':
+    km_miles()
+if choice=='2':
+    miles_km()
+if choice=='3':
+    kg_pound()
+if choice=='4':
+    pound_kg()
+if choice=='5':
+    c_f()
+if choice=='6':
+    f_c()
